@@ -1,4 +1,4 @@
-package dev.okdohyuk.okdohyukdevserver.domain;
+package okdohyuk.okdohyukdevserver.domain;
 
 public class Member {
     private Long id;

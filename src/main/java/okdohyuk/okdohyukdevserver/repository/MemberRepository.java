@@ -1,6 +1,7 @@
-package dev.okdohyuk.okdohyukdevserver.repository;
+package okdohyuk.okdohyukdevserver.repository;
 
-import dev.okdohyuk.okdohyukdevserver.domain.Member;
+import okdohyuk.okdohyukdevserver.domain.Member;
+import java.util.*;
 
 public interface MemberRepository {
     Member save(Member member);

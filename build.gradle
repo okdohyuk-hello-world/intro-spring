@@ -19,7 +19,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-group = 'dev.okdohyuk'
+group = 'okdohyuk'
 version = '0.0.1-SNAPSHOT'
 description = 'okdohyuk-dev-server'
 sourceCompatibility = '17'
