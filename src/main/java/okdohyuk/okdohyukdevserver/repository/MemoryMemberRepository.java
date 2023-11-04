@@ -2,14 +2,12 @@ package okdohyuk.okdohyukdevserver.repository;
 
 import java.util.*;
 
-import org.springframework.stereotype.Repository;
-
 import okdohyuk.okdohyukdevserver.domain.Member;
 
 /**
  * MemoryMemberRepository
  */
-@Repository
+
 public class MemoryMemberRepository implements MemberRepository {
 
     private Map<Long, Member> store = new HashMap<>();
