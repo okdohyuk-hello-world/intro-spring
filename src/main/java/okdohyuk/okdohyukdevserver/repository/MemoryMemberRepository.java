@@ -6,7 +6,7 @@ import okdohyuk.okdohyukdevserver.domain.Member;
 /**
  * MemoryMemberRepository
  */
-public class MemoryMemberRepository {
+public class MemoryMemberRepository implements MemberRepository {
 
     private Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;
