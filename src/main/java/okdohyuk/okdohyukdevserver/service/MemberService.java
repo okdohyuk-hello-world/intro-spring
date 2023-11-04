@@ -3,10 +3,13 @@ package okdohyuk.okdohyukdevserver.service;
 import java.util.List;
 import okdohyuk.okdohyukdevserver.domain.Member;
 import okdohyuk.okdohyukdevserver.repository.MemberRepository;
-import okdohyuk.okdohyukdevserver.repository.MemoryMemberRepository;
 
 public class MemberService {
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     /** 회원가입 */
     public Long join(Member member) {
