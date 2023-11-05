@@ -21,8 +21,9 @@
 			"jdkVersion": "17",
 			"jdkDistro": "oracle"
 		},
-		"ghcr.io/warrenbuckley/codespace-features/sqlite:1": {},
-		"ghcr.io/swift-server-community/swift-devcontainer-features/sqlite:1": {}
+		"ghcr.io/itsmechlark/features/postgresql:1": {
+			"version": "15"
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
