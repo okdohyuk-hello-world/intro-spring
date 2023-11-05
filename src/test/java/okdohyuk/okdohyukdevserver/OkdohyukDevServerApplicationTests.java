@@ -1,4 +1,4 @@
-package dev.okdohyuk.okdohyukdevserver;
+package okdohyuk.okdohyukdevserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
